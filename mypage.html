@@ -1,0 +1,43 @@
+<html>
+<body>
+        <div id="title">
+            <h1>Welcome To Oziee's Web Page</h1>
+            <p>This is where dreams come true</p>
+            <button onclick="MakeDreamComeTrue()">DREAM COME TRUE</button>
+        </div>
+</body>
+</html>
+
+
+<style>
+
+body{
+
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1gYVerZJ51AFrANXGKBbGlyv8tSgh0Wl64MnXnHjek0ROA4Mc5Igc-8k&s=10");
+        background-size: cover;
+}
+
+h1 {     color: teal; 
+}
+button:hover {
+  background-color: bisque
+}
+button {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#title{ 
+    
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+</style>
+
+<script>
+function MakeDreamComeTrue() {
+    document.body.style.background = 'url("https://www.photofunky.net/output/image/a/3/f/e/a3fe1c/photofunky.gif")';
+    document.getElementById("title").style.visibility = "hidden";
+}
+</script>
