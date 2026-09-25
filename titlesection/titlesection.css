@@ -12,6 +12,16 @@
     background-position: center top;
 }
 
+.title-section-header {
+    margin-bottom: -10px;
+}
+
+
+.title-section-subtitle{
+    margin-bottom: 45px;
+}
+
+
 .title-section-button{
     color: var(--titleSectionPrimaryColor);
     border: solid var(--titleSectionPrimaryColor) 1px;
