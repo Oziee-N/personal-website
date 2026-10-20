@@ -1,6 +1,6 @@
 :root {
     --titleSectionPrimaryColor: rgb(255, 255, 255);
-    --titleSectionSecondaryColor: rgb(202, 195, 178);
+    --titleSectionSecondaryColor: rgb(82, 161, 178);
     --titleSectionTertiary: rgb(0, 0, 0);
 } 
 
@@ -9,8 +9,8 @@
     color: var(--titleSectionPrimaryColor);
     text-align: center;
     padding-top: 200px;
-    background-image: url('../images/spruce-h0eO9ya3ZAM-unsplash.jpg');
-    background-position: center top;
+    background-image: url('../images/Blue-Sky-images-unsplash.jpg');
+    background-position: center center;
 }
 
 .title-section-header {
